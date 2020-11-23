@@ -1,2 +1,2 @@
-# Titanic-ML-Competition-Group-6
+# Titanic-ML-Competition-Group-4
 Please check the Projects Tab for further instructions..

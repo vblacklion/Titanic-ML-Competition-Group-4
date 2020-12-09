@@ -2,8 +2,12 @@ def toplam(x, y):
     """
     verilen iki sayıyı toplar.
 
-    >>>> toplam(2,3)
-    >>>> 5
+    Examples:
+    ---------
+    >>> toplam(2,3)
+    5
+    >>> toplam(10, 1)
+    11
     """
     return x + y
 

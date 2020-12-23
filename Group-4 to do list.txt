@@ -1,0 +1,64 @@
+1. Git ve GitHub:
+	a. GitHub:
+		- workspace branch kullanılacak veya herkes kendine bir branch oluştursun. sonra birleştireceğiz.
+		- fork a repository
+		- make a pull request
+		- merge a pull request
+
+	b. Git Bash:
+		- clone a repository to your local disk -> (git init kullanılmamalı!)
+		- create a local repository on your local disk -> (git init bu dosyanın içinde çalıştırılmalı)
+
+2. Alıştırma yapılacak git komutları:
+
+git clone URL
+
+git init
+
+git status
+
+git add <file name> or git add .  or  git add * 
+
+git remote 			#Lists remote repos
+
+git remote -v			#List remote repos verbosely
+
+git diff
+
+git diff --staged
+
+git commit -m ""  -m "" #more than one commit message is possible
+
+git commit -a -m # without staging direct commit. (bu komut daha önce add ile eklediğimiz dosyalarda çalışır. (modified files))
+
+git config -l  #shows the list of configurations
+
+git log -p     #patch: output is equal to "diff -u" command
+
+git log --stat
+
+git branch <name> 		#Creates the branch
+
+git branch -d <name>		#Deletes the branch
+
+git switch <branch name>	#switches to that branch
+
+3. Titanic:
+önemli: herkes titanic için kullanacağı jupiter notebook ismini "titanic_eda.ipynb" olarak versin böylece push veya pull ederken çakışma (merge conflict) alıştırması yapılabilir.
+
+Exploratory Data Analysis kapsamında;
+
+train data seti pandas ile analiz edilecek.
+- info, describe
+- how many NaNs in which columns?
+- fill NaNs
+
+data visualisation: aşağıdaki plotlardan herhangi iki tanesini çizdirelim.
+- bar chart
+- pie chart
+- count plot
+- pair plot
+- scatter plot
+
+
+

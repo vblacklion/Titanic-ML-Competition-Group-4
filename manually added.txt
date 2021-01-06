@@ -1,1 +1,3 @@
 this file is added usign gui.
+
+böyle daha iyi
